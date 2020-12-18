@@ -1,0 +1,27 @@
+{
+  "name": "boot-gulp",
+  "version": "0.0.1",
+  "description": "Boot model para projetos de frontend usando Node + Gulp + Sass + Compass",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "gulp build",
+    "watch": "onchange 'static/src/sass/**/*.scss' -- npm run kss"
+  },
+  "repository": "git+ssh://git@github.com/bellentani/boot-gulp.git",
+  "keywords": [
+    "Gulp",
+    "boot",
+    "model",
+    "workflow"
+  ],
+  "author": "Poe Bellentani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bellentani/boot-gulp/issues"
+  },
+  "homepage": "https://github.com/bellentani/boot-gulp#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
