@@ -1,4 +1,4 @@
-#Learning JS Playground
+##Learning JS Playground
 
 A place to study JS. Practicing using the book EloquentJS.
 
